@@ -1,0 +1,141 @@
+Apr  2 07:24:33 Dracos kernel: [  118.081119] rfkill: input handler disabled
+Apr  2 07:24:54 Dracos kernel: [  139.434217] audit: type=1400 audit(1617362694.399:56): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=1456 comm="apparmor_parser"
+Apr  2 07:24:57 Dracos kernel: [  142.393896] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Apr  2 07:24:57 Dracos kernel: [  142.398319] Bridge firewalling registered
+Apr  2 07:24:57 Dracos kernel: [  142.980318] Initializing XFRM netlink socket
+Apr  2 07:59:07 Dracos kernel: [ 2192.523228] Bluetooth: RFCOMM TTY layer initialized
+Apr  2 07:59:07 Dracos kernel: [ 2192.523240] Bluetooth: RFCOMM socket layer initialized
+Apr  2 07:59:07 Dracos kernel: [ 2192.523252] Bluetooth: RFCOMM ver 1.11
+Apr  2 10:24:23 Dracos kernel: [10908.403896] audit: type=1400 audit(1617373463.426:57): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/11402/usr/lib/snapd/snap-confine" pid=2505 comm="apparmor_parser"
+Apr  2 10:24:23 Dracos kernel: [10908.404624] audit: type=1400 audit(1617373463.426:58): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/11402/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2505 comm="apparmor_parser"
+Apr  2 10:24:24 Dracos kernel: [10909.273765] audit: type=1400 audit(1617373464.294:59): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.snap-store" pid=2552 comm="apparmor_parser"
+Apr  2 10:24:24 Dracos kernel: [10909.290803] audit: type=1400 audit(1617373464.314:60): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.hook.configure" pid=2693 comm="apparmor_parser"
+Apr  2 10:24:24 Dracos kernel: [10909.296337] audit: type=1400 audit(1617373464.318:61): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.ubuntu-software" pid=2695 comm="apparmor_parser"
+Apr  2 10:24:24 Dracos kernel: [10909.297075] audit: type=1400 audit(1617373464.318:62): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.snap-store" pid=2694 comm="apparmor_parser"
+Apr  2 10:24:24 Dracos kernel: [10909.300026] audit: type=1400 audit(1617373464.322:63): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.ubuntu-software-local-file" pid=2696 comm="apparmor_parser"
+Apr  2 10:24:28 Dracos kernel: [10913.395041] audit: type=1400 audit(1617373468.418:64): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/11402/usr/lib/snapd/snap-confine" pid=3001 comm="apparmor_parser"
+Apr  2 10:24:28 Dracos kernel: [10913.414379] audit: type=1400 audit(1617373468.438:65): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/11402/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=3001 comm="apparmor_parser"
+Apr  2 10:24:29 Dracos kernel: [10914.090327] audit: type=1400 audit(1617373469.114:66): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.snap-store" pid=3004 comm="apparmor_parser"
+Apr  2 10:24:29 Dracos kernel: [10914.101011] audit: type=1400 audit(1617373469.122:67): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.ubuntu-software" pid=3005 comm="apparmor_parser"
+Apr  2 10:24:29 Dracos kernel: [10914.357086] audit: type=1400 audit(1617373469.378:68): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.ubuntu-software-local-file" pid=3006 comm="apparmor_parser"
+Apr  2 10:24:29 Dracos kernel: [10914.357200] audit: type=1400 audit(1617373469.378:69): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.snap-store" pid=3003 comm="apparmor_parser"
+Apr  2 10:24:29 Dracos kernel: [10914.372435] audit: type=1400 audit(1617373469.394:70): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.hook.configure" pid=3012 comm="apparmor_parser"
+Apr  2 11:56:33 Dracos kernel: [16438.913340] wlp2s0: deauthenticating from 24:f5:a2:40:4d:5d by local choice (Reason: 3=DEAUTH_LEAVING)
+Apr  2 11:56:34 Dracos kernel: [16439.218676] PM: suspend entry (deep)
+Apr  2 11:56:34 Dracos kernel: [16439.474125] Filesystems sync: 0.255 seconds
+Apr  2 12:26:07 Dracos kernel: [16439.613687] Freezing user space processes ... (elapsed 0.003 seconds) done.
+Apr  2 12:26:07 Dracos kernel: [16439.616880] OOM killer disabled.
+Apr  2 12:26:07 Dracos kernel: [16439.616881] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+Apr  2 12:26:07 Dracos kernel: [16439.618355] printk: Suspending console(s) (use no_console_suspend to debug)
+Apr  2 12:26:07 Dracos kernel: [16439.638360] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Apr  2 12:26:07 Dracos kernel: [16439.701497] sd 0:0:0:0: [sda] Stopping disk
+Apr  2 12:26:07 Dracos kernel: [16440.447300] ACPI: EC: interrupt blocked
+Apr  2 12:26:07 Dracos kernel: [16440.495245] ACPI: Preparing to enter system sleep state S3
+Apr  2 12:26:07 Dracos kernel: [16440.499107] ACPI: EC: event blocked
+Apr  2 12:26:07 Dracos kernel: [16440.499109] ACPI: EC: EC stopped
+Apr  2 12:26:07 Dracos kernel: [16440.499110] PM: Saving platform NVS memory
+Apr  2 12:26:07 Dracos kernel: [16440.499187] Disabling non-boot CPUs ...
+Apr  2 12:26:07 Dracos kernel: [16440.501124] smpboot: CPU 1 is now offline
+Apr  2 12:26:07 Dracos kernel: [16440.509252] smpboot: CPU 2 is now offline
+Apr  2 12:26:07 Dracos kernel: [16440.517210] smpboot: CPU 3 is now offline
+Apr  2 12:26:07 Dracos kernel: [16440.525781] smpboot: CPU 4 is now offline
+Apr  2 12:26:07 Dracos kernel: [16440.531847] IRQ 122: no longer affine to CPU5
+Apr  2 12:26:07 Dracos kernel: [16440.531855] IRQ 127: no longer affine to CPU5
+Apr  2 12:26:07 Dracos kernel: [16440.532874] smpboot: CPU 5 is now offline
+Apr  2 12:26:07 Dracos kernel: [16440.537001] IRQ 124: no longer affine to CPU6
+Apr  2 12:26:07 Dracos kernel: [16440.538022] smpboot: CPU 6 is now offline
+Apr  2 12:26:07 Dracos kernel: [16440.541790] IRQ 123: no longer affine to CPU7
+Apr  2 12:26:07 Dracos kernel: [16440.541800] IRQ 128: no longer affine to CPU7
+Apr  2 12:26:07 Dracos kernel: [16440.542839] smpboot: CPU 7 is now offline
+Apr  2 12:26:07 Dracos kernel: [16440.550126] ACPI: Low-level resume complete
+Apr  2 12:26:07 Dracos kernel: [16440.550234] ACPI: EC: EC started
+Apr  2 12:26:07 Dracos kernel: [16440.550234] PM: Restoring platform NVS memory
+Apr  2 12:26:07 Dracos kernel: [16440.553916] smpboot: Scheduler frequency invariance went wobbly, disabling!
+Apr  2 12:26:07 Dracos kernel: [16440.553994] Enabling non-boot CPUs ...
+Apr  2 12:26:07 Dracos kernel: [16440.554049] x86: Booting SMP configuration:
+Apr  2 12:26:07 Dracos kernel: [16440.554050] smpboot: Booting Node 0 Processor 1 APIC 0x2
+Apr  2 12:26:07 Dracos kernel: [16440.558174] CPU1 is up
+Apr  2 12:26:07 Dracos kernel: [16440.558198] smpboot: Booting Node 0 Processor 2 APIC 0x4
+Apr  2 12:26:07 Dracos kernel: [16440.560522] CPU2 is up
+Apr  2 12:26:07 Dracos kernel: [16440.560544] smpboot: Booting Node 0 Processor 3 APIC 0x6
+Apr  2 12:26:07 Dracos kernel: [16440.562878] CPU3 is up
+Apr  2 12:26:07 Dracos kernel: [16440.562900] smpboot: Booting Node 0 Processor 4 APIC 0x1
+Apr  2 12:26:07 Dracos kernel: [16440.563764] CPU4 is up
+Apr  2 12:26:07 Dracos kernel: [16440.563790] smpboot: Booting Node 0 Processor 5 APIC 0x3
+Apr  2 12:26:07 Dracos kernel: [16440.564526] CPU5 is up
+Apr  2 12:26:07 Dracos kernel: [16440.564548] smpboot: Booting Node 0 Processor 6 APIC 0x5
+Apr  2 12:26:07 Dracos kernel: [16440.565310] CPU6 is up
+Apr  2 12:26:07 Dracos kernel: [16440.565332] smpboot: Booting Node 0 Processor 7 APIC 0x7
+Apr  2 12:26:07 Dracos kernel: [16440.566112] CPU7 is up
+Apr  2 12:26:07 Dracos kernel: [16440.569718] ACPI: Waking up from system sleep state S3
+Apr  2 12:26:07 Dracos kernel: [16440.581213] ACPI: EC: interrupt unblocked
+Apr  2 12:26:07 Dracos kernel: [16440.619946] ACPI: EC: event unblocked
+Apr  2 12:26:07 Dracos kernel: [16440.621959] iwlwifi 0000:02:00.0: RF_KILL bit toggled to enable radio.
+Apr  2 12:26:07 Dracos kernel: [16440.622500] sd 0:0:0:0: [sda] Starting disk
+Apr  2 12:26:07 Dracos kernel: [16440.622678] usb usb1: root hub lost power or was reset
+Apr  2 12:26:07 Dracos kernel: [16440.622681] usb usb2: root hub lost power or was reset
+Apr  2 12:26:07 Dracos kernel: [16440.934875] ata3: SATA link down (SStatus 4 SControl 300)
+Apr  2 12:26:07 Dracos kernel: [16440.934915] ata2: SATA link down (SStatus 4 SControl 300)
+Apr  2 12:26:07 Dracos kernel: [16440.982027] usb 1-8: reset full-speed USB device number 3 using xhci_hcd
+Apr  2 12:26:07 Dracos kernel: [16441.258062] usb 1-6: reset high-speed USB device number 2 using xhci_hcd
+Apr  2 12:26:07 Dracos kernel: [16441.430116] acpi LNXPOWER:13: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.430363] acpi LNXPOWER:12: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.430622] acpi LNXPOWER:11: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.430891] acpi LNXPOWER:10: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.431159] acpi LNXPOWER:0f: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.431426] acpi LNXPOWER:0e: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.431692] acpi LNXPOWER:0d: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.431960] acpi LNXPOWER:0c: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.432226] acpi LNXPOWER:0b: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.432491] acpi LNXPOWER:0a: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.432751] acpi LNXPOWER:09: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.432984] acpi LNXPOWER:08: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.433217] acpi LNXPOWER:07: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.433451] acpi LNXPOWER:06: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.433708] acpi LNXPOWER:05: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.433943] acpi LNXPOWER:04: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.434178] acpi LNXPOWER:03: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.434412] acpi LNXPOWER:02: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.434644] acpi LNXPOWER:01: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.434767] acpi LNXPOWER:00: Turning OFF
+Apr  2 12:26:07 Dracos kernel: [16441.434820] OOM killer enabled.
+Apr  2 12:26:07 Dracos kernel: [16441.434822] Restarting tasks ... done.
+Apr  2 12:26:07 Dracos kernel: [16441.438880] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_component_ops [i915])
+Apr  2 12:26:07 Dracos kernel: [16441.444742] thermal thermal_zone9: failed to read out thermal zone (-61)
+Apr  2 12:26:07 Dracos kernel: [16441.456263] PM: suspend exit
+Apr  2 12:26:07 Dracos kernel: [16441.458489] Bluetooth: hci0: Bootloader revision 0.0 build 26 week 38 2015
+Apr  2 12:26:07 Dracos kernel: [16441.459255] Bluetooth: hci0: Device revision is 16
+Apr  2 12:26:07 Dracos kernel: [16441.459256] Bluetooth: hci0: Secure boot is enabled
+Apr  2 12:26:07 Dracos kernel: [16441.459257] Bluetooth: hci0: OTP lock is enabled
+Apr  2 12:26:07 Dracos kernel: [16441.459258] Bluetooth: hci0: API lock is enabled
+Apr  2 12:26:07 Dracos kernel: [16441.459258] Bluetooth: hci0: Debug lock is disabled
+Apr  2 12:26:07 Dracos kernel: [16441.459259] Bluetooth: hci0: Minimum firmware build 1 week 10 2014
+Apr  2 12:26:07 Dracos kernel: [16441.459262] Bluetooth: hci0: Found device firmware: intel/ibt-12-16.sfi
+Apr  2 12:26:09 Dracos kernel: [16442.998374] Bluetooth: hci0: Waiting for firmware download to complete
+Apr  2 12:26:09 Dracos kernel: [16442.999288] Bluetooth: hci0: Firmware loaded in 1506807 usecs
+Apr  2 12:26:09 Dracos kernel: [16442.999340] Bluetooth: hci0: Waiting for device to boot
+Apr  2 12:26:09 Dracos kernel: [16443.016545] Bluetooth: hci0: Device booted in 16841 usecs
+Apr  2 12:26:09 Dracos kernel: [16443.016553] Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-12-16.ddc
+Apr  2 12:26:09 Dracos kernel: [16443.019365] Bluetooth: hci0: Applying Intel DDC parameters completed
+Apr  2 12:26:09 Dracos kernel: [16443.020324] Bluetooth: hci0: Firmware revision 0.1 build 50 week 12 2019
+Apr  2 12:26:09 Dracos kernel: [16443.093571] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Apr  2 12:26:09 Dracos kernel: [16443.129859] ata1.00: ACPI cmd ef/10:06:00:00:00:00 (SET FEATURES) succeeded
+Apr  2 12:26:09 Dracos kernel: [16443.129864] ata1.00: ACPI cmd f5/00:00:00:00:00:00 (SECURITY FREEZE LOCK) filtered out
+Apr  2 12:26:09 Dracos kernel: [16443.129867] ata1.00: ACPI cmd b1/c1:00:00:00:00:00 (DEVICE CONFIGURATION OVERLAY) filtered out
+Apr  2 12:26:09 Dracos kernel: [16443.134678] ata1.00: ACPI cmd ef/10:06:00:00:00:00 (SET FEATURES) succeeded
+Apr  2 12:26:09 Dracos kernel: [16443.134683] ata1.00: ACPI cmd f5/00:00:00:00:00:00 (SECURITY FREEZE LOCK) filtered out
+Apr  2 12:26:09 Dracos kernel: [16443.134686] ata1.00: ACPI cmd b1/c1:00:00:00:00:00 (DEVICE CONFIGURATION OVERLAY) filtered out
+Apr  2 12:26:09 Dracos kernel: [16443.136094] ata1.00: configured for UDMA/100
+Apr  2 12:26:09 Dracos kernel: [16443.292091] iwlwifi 0000:02:00.0: Applying debug destination EXTERNAL_DRAM
+Apr  2 12:26:09 Dracos kernel: [16443.426058] iwlwifi 0000:02:00.0: Applying debug destination EXTERNAL_DRAM
+Apr  2 12:26:09 Dracos kernel: [16443.494991] iwlwifi 0000:02:00.0: FW already configured (0) - re-configuring
+Apr  2 12:26:14 Dracos kernel: [16447.700986] wlp2s0: authenticate with 24:f5:a2:40:4d:5d
+Apr  2 12:26:14 Dracos kernel: [16447.712139] wlp2s0: send auth to 24:f5:a2:40:4d:5d (try 1/3)
+Apr  2 12:26:14 Dracos kernel: [16447.825768] wlp2s0: send auth to 24:f5:a2:40:4d:5d (try 2/3)
+Apr  2 12:26:14 Dracos kernel: [16447.830000] wlp2s0: authenticated
+Apr  2 12:26:14 Dracos kernel: [16447.833608] wlp2s0: associate with 24:f5:a2:40:4d:5d (try 1/3)
+Apr  2 12:26:14 Dracos kernel: [16447.900669] wlp2s0: associate with 24:f5:a2:40:4d:5d (try 2/3)
+Apr  2 12:26:14 Dracos kernel: [16447.921309] wlp2s0: RX AssocResp from 24:f5:a2:40:4d:5d (capab=0x11 status=0 aid=8)
+Apr  2 12:26:14 Dracos kernel: [16447.948718] wlp2s0: associated
+Apr  2 12:26:14 Dracos kernel: [16448.134077] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+Apr  2 12:46:01 Dracos kernel: [17634.787551] asus_wmi: Unknown key cf pressed

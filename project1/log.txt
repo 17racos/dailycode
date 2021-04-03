@@ -1,0 +1,441 @@
+Apr  2 07:24:24 Dracos systemd-resolved[639]: message repeated 8 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Apr  2 07:24:25 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=126 pid=982 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr  2 07:24:25 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr  2 07:24:25 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=126 pid=982 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr  2 07:24:25 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr  2 07:24:25 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=126 pid=982 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr  2 07:24:25 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr  2 07:24:25 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=126 pid=982 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr  2 07:24:25 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr  2 07:24:25 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activating service name='org.a11y.Bus' requested by ':1.4' (uid=126 pid=1070 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr  2 07:24:25 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Successfully activated service 'org.a11y.Bus'
+Apr  2 07:24:25 Dracos rsyslogd: [origin software="rsyslogd" swVersion="8.2006.0" x-pid="672" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Apr  2 07:24:25 Dracos logrotate[1210]: cat: /var/run/sssd.pid: No such file or directory
+Apr  2 07:24:26 Dracos systemd[1]: logrotate.service: Succeeded.
+Apr  2 07:24:26 Dracos systemd[1]: Finished Rotate log files.
+Apr  2 07:24:29 Dracos systemd[1]: man-db.service: Succeeded.
+Apr  2 07:24:29 Dracos systemd[1]: Finished Daily man-db regeneration.
+Apr  2 07:24:29 Dracos systemd[1]: systemd-hostnamed.service: Succeeded.
+Apr  2 07:24:29 Dracos gnome-shell[1070]: Some code accessed the property 'CredentialManager' on the module 'credentialManager'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Apr  2 07:24:29 Dracos gnome-shell[1070]: Skipping parental controls support as it’s disabled
+Apr  2 07:24:30 Dracos gnome-shell[1070]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+Apr  2 07:24:30 Dracos gnome-shell[1070]: Will monitor session c1
+Apr  2 07:24:30 Dracos dbus-daemon[659]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.48' (uid=126 pid=1070 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr  2 07:24:30 Dracos systemd[1]: Starting Locale Service...
+Apr  2 07:24:30 Dracos dbus-daemon[659]: [system] Successfully activated service 'org.freedesktop.locale1'
+Apr  2 07:24:30 Dracos systemd[1]: Started Locale Service.
+Apr  2 07:24:30 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activating service name='org.freedesktop.portal.IBus' requested by ':1.6' (uid=126 pid=1228 comm="ibus-daemon --panel disable " label="unconfined")
+Apr  2 07:24:30 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Successfully activated service 'org.freedesktop.portal.IBus'
+Apr  2 07:24:32 Dracos systemd[950]: tracker-extract.service: Succeeded.
+Apr  2 07:24:32 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.3' (uid=126 pid=1070 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr  2 07:24:32 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Apr  2 07:24:32 Dracos dbus-daemon[659]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.48' (uid=126 pid=1070 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr  2 07:24:32 Dracos systemd[1]: Starting Location Lookup Service...
+Apr  2 07:24:32 Dracos dbus-daemon[659]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.48' (uid=126 pid=1070 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr  2 07:24:32 Dracos systemd[1]: Starting PackageKit Daemon...
+Apr  2 07:24:32 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activating service name='org.gnome.Shell.Notifications' requested by ':1.3' (uid=126 pid=1070 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr  2 07:24:32 Dracos /usr/libexec/gdm-wayland-session[1207]: dbus-daemon[1207]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=126 pid=1070 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr  2 07:24:32 Dracos gnome-shell[1070]: _clutter_stage_queue_event: assertion 'CLUTTER_IS_STAGE (stage)' failed
+Apr  2 07:24:32 Dracos gnome-shell[1070]: clutter_do_event: Event does not have a stage: discarding.
+Apr  2 07:24:32 Dracos gnome-shell[1070]: _clutter_stage_queue_event: assertion 'CLUTTER_IS_STAGE (stage)' failed
+Apr  2 07:24:32 Dracos gnome-shell[1070]: clutter_do_event: Event does not have a stage: discarding.
+Apr  2 07:24:32 Dracos dbus-daemon[659]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Apr  2 07:24:32 Dracos systemd[1]: Started Location Lookup Service.
+Apr  2 07:24:32 Dracos gnome-shell[1070]: _clutter_stage_queue_event: assertion 'CLUTTER_IS_STAGE (stage)' failed
+Apr  2 07:24:32 Dracos gnome-shell[1070]: clutter_do_event: Event does not have a stage: discarding.
+Apr  2 07:24:32 Dracos gnome-shell[1070]: _clutter_stage_queue_event: assertion 'CLUTTER_IS_STAGE (stage)' failed
+Apr  2 07:24:32 Dracos gnome-shell[1070]: clutter_do_event: Event does not have a stage: discarding.
+Apr  2 07:24:32 Dracos gnome-shell[1070]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Apr  2 07:24:32 Dracos gnome-shell[1070]: _clutter_stage_queue_event: assertion 'CLUTTER_IS_STAGE (stage)' failed
+Apr  2 07:24:32 Dracos gnome-shell[1070]: clutter_do_event: Event does not have a stage: discarding.
+Apr  2 07:24:32 Dracos gnome-shell[1070]: _clutter_stage_queue_event: assertion 'CLUTTER_IS_STAGE (stage)' failed
+Apr  2 07:24:32 Dracos /usr/libexec/gdm-wayland-session[1207]: dbus-daemon[1207]: Successfully activated service 'org.a11y.atspi.Registry'
+Apr  2 07:24:32 Dracos /usr/libexec/gdm-wayland-session[1251]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Apr  2 07:24:32 Dracos dbus-daemon[659]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.55' (uid=126 pid=1261 comm="/usr/libexec/gsd-rfkill " label="unconfined")
+Apr  2 07:24:32 Dracos systemd[1]: Starting Hostname Service...
+Apr  2 07:24:32 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activating service name='org.freedesktop.systemd1' requested by ':1.13' (uid=126 pid=1255 comm="/usr/libexec/gsd-sharing " label="unconfined")
+Apr  2 07:24:32 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr  2 07:24:32 Dracos gsd-sharing[1255]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Apr  2 07:24:32 Dracos gsd-sharing[1255]: message repeated 3 times: [ Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1]
+Apr  2 07:24:32 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Successfully activated service 'org.gnome.Shell.Notifications'
+Apr  2 07:24:33 Dracos dbus-daemon[659]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr  2 07:24:33 Dracos systemd[1]: Started Hostname Service.
+Apr  2 07:24:33 Dracos kernel: [  118.081119] rfkill: input handler disabled
+Apr  2 07:24:33 Dracos PackageKit: daemon start
+Apr  2 07:24:33 Dracos dbus-daemon[659]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Apr  2 07:24:33 Dracos systemd[1]: Started PackageKit Daemon.
+Apr  2 07:24:34 Dracos dbus-daemon[659]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.48' (uid=126 pid=1070 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr  2 07:24:34 Dracos systemd[1]: Starting Fingerprint Authentication Daemon...
+Apr  2 07:24:34 Dracos dbus-daemon[659]: [system] Successfully activated service 'net.reactivated.Fprint'
+Apr  2 07:24:34 Dracos systemd[1]: Started Fingerprint Authentication Daemon.
+Apr  2 07:24:34 Dracos dbus-daemon[659]: [system] Activating via systemd: service name='org.freedesktop.realmd' unit='realmd.service' requested by ':1.48' (uid=126 pid=1070 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr  2 07:24:34 Dracos systemd[1]: Starting Realm and Domain Configuration...
+Apr  2 07:24:34 Dracos dbus-daemon[659]: [system] Successfully activated service 'org.freedesktop.realmd'
+Apr  2 07:24:34 Dracos systemd[1]: Started Realm and Domain Configuration.
+Apr  2 07:24:35 Dracos gnome-shell[1070]: Registering session with GDM
+Apr  2 07:24:35 Dracos systemd[1]: Received SIGRTMIN+21 from PID 400 (plymouthd).
+Apr  2 07:24:35 Dracos systemd[1]: Finished Hold until boot process finishes up.
+Apr  2 07:24:35 Dracos systemd[1]: Reached target Multi-User System.
+Apr  2 07:24:35 Dracos systemd[1]: Reached target Graphical Interface.
+Apr  2 07:24:35 Dracos systemd[1]: Starting Docker Application Container Engine...
+Apr  2 07:24:35 Dracos systemd[1]: Starting Set console scheme...
+Apr  2 07:24:35 Dracos systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Apr  2 07:24:35 Dracos systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Apr  2 07:24:35 Dracos systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Apr  2 07:24:35 Dracos systemd[1]: Finished Set console scheme.
+Apr  2 07:24:35 Dracos systemd[1]: Created slice system-getty.slice.
+Apr  2 07:24:35 Dracos gnome-shell[1070]: Can't update stage views actor StLabel is on because it needs an allocation.
+Apr  2 07:24:35 Dracos gnome-shell[1070]: Can't update stage views actor ClutterText is on because it needs an allocation.
+Apr  2 07:24:35 Dracos gnome-shell[1070]: Can't update stage views actor StLabel is on because it needs an allocation.
+Apr  2 07:24:35 Dracos gnome-shell[1070]: Can't update stage views actor ClutterText is on because it needs an allocation.
+Apr  2 07:24:35 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Activating service name='org.freedesktop.portal.IBus' requested by ':1.27' (uid=126 pid=1406 comm="ibus-daemon --panel disable -r --xim " label="unconfined")
+Apr  2 07:24:35 Dracos /usr/libexec/gdm-wayland-session[980]: dbus-daemon[980]: [session uid=126 pid=980] Successfully activated service 'org.freedesktop.portal.IBus'
+Apr  2 07:24:36 Dracos org.gnome.Shell.desktop[1429]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr  2 07:24:36 Dracos org.gnome.Shell.desktop[1429]: > Warning:          Unsupported maximum keycode 569, clipping.
+Apr  2 07:24:36 Dracos org.gnome.Shell.desktop[1429]: >                   X11 cannot support keycodes above 255.
+Apr  2 07:24:36 Dracos org.gnome.Shell.desktop[1429]: > Internal error:   Could not resolve keysym Invalid
+Apr  2 07:24:36 Dracos org.gnome.Shell.desktop[1429]: Errors from xkbcomp are not fatal to the X server
+Apr  2 07:24:37 Dracos gsd-media-keys[1264]: Failed to grab accelerator for keybinding settings:rfkill
+Apr  2 07:24:37 Dracos gsd-media-keys[1264]: Failed to grab accelerator for keybinding settings:playback-random
+Apr  2 07:24:37 Dracos gsd-media-keys[1264]: Failed to grab accelerator for keybinding settings:playback-repeat
+Apr  2 07:24:37 Dracos gsd-media-keys[1264]: Failed to grab accelerator for keybinding settings:hibernate
+Apr  2 07:24:37 Dracos gnome-session-binary[982]: Entering running state
+Apr  2 07:24:37 Dracos xbrlapi.desktop[1440]: openConnection: connect: No such file or directory
+Apr  2 07:24:37 Dracos xbrlapi.desktop[1440]: cannot connect to braille devices daemon brltty at :0
+Apr  2 07:24:38 Dracos dockerd[1400]: time="2021-04-02T07:24:38.223345176-04:00" level=info msg="Starting up"
+Apr  2 07:24:38 Dracos dockerd[1400]: time="2021-04-02T07:24:38.253320146-04:00" level=warning msg="Binding to IP address without --tlsverify is insecure and gives root access on this machine to everyone who has access to your network." host="tcp://0.0.0.0:2375"
+Apr  2 07:24:38 Dracos dockerd[1400]: time="2021-04-02T07:24:38.253492926-04:00" level=warning msg="Binding to an IP address, even on localhost, can also give access to scripts run in a browser. Be safe out there!" host="tcp://0.0.0.0:2375"
+Apr  2 07:24:39 Dracos dockerd[1400]: time="2021-04-02T07:24:39.254172358-04:00" level=warning msg="Binding to an IP address without --tlsverify is deprecated. Startup is intentionally being slowed down to show this message" host="tcp://0.0.0.0:2375"
+Apr  2 07:24:39 Dracos dockerd[1400]: time="2021-04-02T07:24:39.254286972-04:00" level=warning msg="Please consider generating tls certificates with client validation to prevent exposing unauthenticated root access to your network" host="tcp://0.0.0.0:2375"
+Apr  2 07:24:39 Dracos dockerd[1400]: time="2021-04-02T07:24:39.254326073-04:00" level=warning msg="You can override this by explicitly specifying '--tls=false' or '--tlsverify=false'" host="tcp://0.0.0.0:2375"
+Apr  2 07:24:39 Dracos dockerd[1400]: time="2021-04-02T07:24:39.254356521-04:00" level=warning msg="Support for listening on TCP without authentication or explicit intent to run without authentication will be removed in the next release" host="tcp://0.0.0.0:2375"
+Apr  2 07:24:51 Dracos tracker-store[1139]: OK
+Apr  2 07:24:51 Dracos systemd[950]: tracker-store.service: Succeeded.
+Apr  2 07:24:54 Dracos dockerd[1400]: time="2021-04-02T07:24:54.256335112-04:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Apr  2 07:24:54 Dracos kernel: [  139.434217] audit: type=1400 audit(1617362694.399:56): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=1456 comm="apparmor_parser"
+Apr  2 07:24:54 Dracos dockerd[1400]: time="2021-04-02T07:24:54.440163699-04:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+Apr  2 07:24:54 Dracos dockerd[1400]: time="2021-04-02T07:24:54.440213609-04:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Apr  2 07:24:54 Dracos dockerd[1400]: time="2021-04-02T07:24:54.440252470-04:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+Apr  2 07:24:54 Dracos dockerd[1400]: time="2021-04-02T07:24:54.440291045-04:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Apr  2 07:24:54 Dracos dockerd[1400]: time="2021-04-02T07:24:54.503712890-04:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+Apr  2 07:24:54 Dracos dockerd[1400]: time="2021-04-02T07:24:54.503776144-04:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Apr  2 07:24:54 Dracos dockerd[1400]: time="2021-04-02T07:24:54.503840739-04:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+Apr  2 07:24:54 Dracos dockerd[1400]: time="2021-04-02T07:24:54.503871489-04:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Apr  2 07:24:55 Dracos dockerd[1400]: time="2021-04-02T07:24:55.170209983-04:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Apr  2 07:24:56 Dracos dockerd[1400]: time="2021-04-02T07:24:56.783475852-04:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+Apr  2 07:24:56 Dracos dockerd[1400]: time="2021-04-02T07:24:56.783550343-04:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+Apr  2 07:24:56 Dracos dockerd[1400]: time="2021-04-02T07:24:56.783586337-04:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+Apr  2 07:24:56 Dracos dockerd[1400]: time="2021-04-02T07:24:56.784216398-04:00" level=info msg="Loading containers: start."
+Apr  2 07:24:56 Dracos dockerd[1400]: time="2021-04-02T07:24:56.862996161-04:00" level=error msg="Failed to load container mount 8170a057493d8b6c4166598b2df01dc6c525df121e8234caf772eed58433a512: mount does not exist"
+Apr  2 07:24:57 Dracos kernel: [  142.393896] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Apr  2 07:24:57 Dracos kernel: [  142.398319] Bridge firewalling registered
+Apr  2 07:24:57 Dracos kernel: [  142.980318] Initializing XFRM netlink socket
+Apr  2 07:24:58 Dracos NetworkManager[660]: <info>  [1617362698.0089] manager: (docker0): new Bridge device (/org/freedesktop/NetworkManager/Devices/4)
+Apr  2 07:24:58 Dracos systemd-udevd[1469]: Using default interface naming scheme 'v245'.
+Apr  2 07:24:58 Dracos systemd-udevd[1469]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr  2 07:24:58 Dracos avahi-daemon[657]: Joining mDNS multicast group on interface docker0.IPv4 with address 172.17.0.1.
+Apr  2 07:24:58 Dracos avahi-daemon[657]: New relevant interface docker0.IPv4 for mDNS.
+Apr  2 07:24:58 Dracos NetworkManager[660]: <info>  [1617362698.0882] device (docker0): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+Apr  2 07:24:58 Dracos avahi-daemon[657]: Registering new address record for 172.17.0.1 on docker0.IPv4.
+Apr  2 07:24:58 Dracos NetworkManager[660]: <info>  [1617362698.0928] device (docker0): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+Apr  2 07:24:58 Dracos NetworkManager[660]: <info>  [1617362698.0938] device (docker0): Activation: starting connection 'docker0' (fda7f2f4-0bd6-4728-9cc4-94936db2c9c1)
+Apr  2 07:24:58 Dracos NetworkManager[660]: <info>  [1617362698.0995] device (docker0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+Apr  2 07:24:58 Dracos NetworkManager[660]: <info>  [1617362698.0999] device (docker0): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+Apr  2 07:24:58 Dracos NetworkManager[660]: <info>  [1617362698.1004] device (docker0): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+Apr  2 07:24:58 Dracos NetworkManager[660]: <info>  [1617362698.1007] device (docker0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+Apr  2 07:24:58 Dracos dbus-daemon[659]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=660 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr  2 07:24:58 Dracos systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr  2 07:24:58 Dracos dbus-daemon[659]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr  2 07:24:58 Dracos systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr  2 07:24:58 Dracos NetworkManager[660]: <info>  [1617362698.1134] device (docker0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+Apr  2 07:24:58 Dracos NetworkManager[660]: <info>  [1617362698.1136] device (docker0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+Apr  2 07:24:58 Dracos NetworkManager[660]: <info>  [1617362698.1149] device (docker0): Activation: successful, device activated.
+Apr  2 07:24:58 Dracos nm-dispatcher[1551]: postconf: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr  2 07:24:58 Dracos dockerd[1400]: time="2021-04-02T07:24:58.305161829-04:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Apr  2 07:24:58 Dracos dockerd[1400]: time="2021-04-02T07:24:58.501080790-04:00" level=info msg="Loading containers: done."
+Apr  2 07:24:58 Dracos systemd[1]: var-lib-docker-overlay2-opaque\x2dbug\x2dcheck515469201-merged.mount: Succeeded.
+Apr  2 07:24:58 Dracos systemd[950]: var-lib-docker-overlay2-opaque\x2dbug\x2dcheck515469201-merged.mount: Succeeded.
+Apr  2 07:24:59 Dracos dockerd[1400]: time="2021-04-02T07:24:59.202093548-04:00" level=info msg="Docker daemon" commit=eeddea2 graphdriver(s)=overlay2 version=20.10.0
+Apr  2 07:24:59 Dracos dockerd[1400]: time="2021-04-02T07:24:59.234623149-04:00" level=info msg="Daemon has completed initialization"
+Apr  2 07:24:59 Dracos systemd[1]: Started Docker Application Container Engine.
+Apr  2 07:24:59 Dracos systemd[1]: Startup finished in 13.320s (firmware) + 6.632s (loader) + 1min 635ms (kernel) + 1min 23.801s (userspace) = 2min 44.390s.
+Apr  2 07:24:59 Dracos dockerd[1400]: time="2021-04-02T07:24:59.409035587-04:00" level=info msg="API listen on /run/docker.sock"
+Apr  2 07:24:59 Dracos dockerd[1400]: time="2021-04-02T07:24:59.412648341-04:00" level=info msg="API listen on [::]:2375"
+Apr  2 07:25:04 Dracos systemd[1]: fprintd.service: Succeeded.
+Apr  2 07:25:07 Dracos systemd[1]: systemd-localed.service: Succeeded.
+Apr  2 07:25:07 Dracos systemd[1]: systemd-hostnamed.service: Succeeded.
+Apr  2 07:25:07 Dracos systemd-resolved[639]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Apr  2 07:25:08 Dracos systemd-resolved[639]: message repeated 3 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Apr  2 07:25:08 Dracos systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Apr  2 07:25:32 Dracos geoclue[1246]: Service not used for 60 seconds. Shutting down..
+Apr  2 07:25:32 Dracos systemd[1]: geoclue.service: Succeeded.
+Apr  2 07:25:35 Dracos systemd[1]: realmd.service: Succeeded.
+Apr  2 07:28:52 Dracos anacron[655]: Job `cron.daily' started
+Apr  2 07:28:53 Dracos anacron[1639]: Updated timestamp for job `cron.daily' to 2021-04-02
+Apr  2 07:28:53 Dracos systemd[1]: Starting Download data for packages that failed at package install time...
+Apr  2 07:28:53 Dracos cracklib: no dictionary update necessary.
+Apr  2 07:28:53 Dracos systemd[1]: update-notifier-download.service: Succeeded.
+Apr  2 07:28:53 Dracos systemd[1]: Finished Download data for packages that failed at package install time.
+Apr  2 07:28:54 Dracos anacron[655]: Job `cron.daily' terminated
+Apr  2 07:28:54 Dracos anacron[655]: Normal exit (1 job run)
+Apr  2 07:28:54 Dracos systemd[1]: anacron.service: Succeeded.
+Apr  2 07:29:19 Dracos snapd[676]: storehelpers.go:551: cannot refresh: snap has no updates available: "gnome-3-34-1804", "gtk-common-themes", "snap-store"
+Apr  2 07:29:38 Dracos PackageKit: daemon quit
+Apr  2 07:29:38 Dracos systemd[1]: packagekit.service: Succeeded.
+Apr  2 07:29:42 Dracos gnome-shell[1070]: Can't update stage views actor StLabel is on because it needs an allocation.
+Apr  2 07:29:42 Dracos gnome-shell[1070]: Can't update stage views actor ClutterText is on because it needs an allocation.
+Apr  2 07:29:42 Dracos gnome-shell[1070]: Can't update stage views actor StLabel is on because it needs an allocation.
+Apr  2 07:29:42 Dracos gnome-shell[1070]: Can't update stage views actor ClutterText is on because it needs an allocation.
+Apr  2 07:30:00 Dracos gnome-shell[1070]: Bogus presentation time 0 travelled back in time, using current time.
+Apr  2 07:30:01 Dracos CRON[1681]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Apr  2 07:30:53 Dracos systemd[1]: Started Run anacron jobs.
+Apr  2 07:30:53 Dracos anacron[1683]: Anacron 2.3 started on 2021-04-02
+Apr  2 07:30:53 Dracos anacron[1683]: Will run job `cron.daily' in 5 min.
+Apr  2 07:30:53 Dracos anacron[1683]: Will run job `cron.weekly' in 10 min.
+Apr  2 07:30:53 Dracos anacron[1683]: Will run job `cron.monthly' in 15 min.
+Apr  2 07:30:53 Dracos anacron[1683]: Jobs will be executed sequentially
+Apr  2 07:35:53 Dracos anacron[1683]: Job `cron.daily' started
+Apr  2 07:35:54 Dracos anacron[1694]: Updated timestamp for job `cron.daily' to 2021-04-02
+Apr  2 07:35:54 Dracos cracklib: no dictionary update necessary.
+Apr  2 07:35:54 Dracos anacron[1683]: Job `cron.daily' terminated
+Apr  2 07:37:39 Dracos systemd[1]: Starting Cleanup of Temporary Directories...
+Apr  2 07:37:39 Dracos systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Apr  2 07:37:39 Dracos systemd[1]: Finished Cleanup of Temporary Directories.
+Apr  2 07:40:53 Dracos anacron[1683]: Job `cron.weekly' started
+Apr  2 07:40:53 Dracos anacron[1739]: Updated timestamp for job `cron.weekly' to 2021-04-02
+Apr  2 07:40:53 Dracos anacron[1683]: Job `cron.weekly' terminated
+Apr  2 07:45:53 Dracos anacron[1683]: Job `cron.monthly' started
+Apr  2 07:45:53 Dracos anacron[1683]: Job `cron.monthly' terminated
+Apr  2 07:45:53 Dracos systemd[1]: anacron.service: Killing process 1748 (anacron) with signal SIGKILL.
+Apr  2 07:45:53 Dracos anacron[1683]: Normal exit (3 jobs run)
+Apr  2 07:45:53 Dracos systemd[1]: anacron.service: Killing process 1748 (anacron) with signal SIGKILL.
+Apr  2 07:45:53 Dracos systemd[1]: anacron.service: Succeeded.
+Apr  2 07:59:06 Dracos systemd[1]: Created slice User Slice of UID 1000.
+Apr  2 07:59:06 Dracos systemd[1]: Starting User Runtime Directory /run/user/1000...
+Apr  2 07:59:06 Dracos systemd[1]: Finished User Runtime Directory /run/user/1000.
+Apr  2 07:59:06 Dracos systemd[1]: Starting User Manager for UID 1000...
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.Sharing-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.PrintNotifications-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.XSettings-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: gnome-systemd-autostart-condition not found: No such file or directory
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.Sound-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: gnome-systemd-autostart-condition not found: No such file or directory
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-at\x2dspi\x2ddbus\x2dbus-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-pulseaudio-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.Wwan-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-gnome\x2dinitial\x2dsetup\x2dcopy\x2dworker-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.Keyboard-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-spice\x2dvdagent-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.Housekeeping-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-gnome\x2dkeyring\x2dsecrets-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.Datetime-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.UsbProtection-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.Smartcard-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.MediaKeys-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.Rfkill-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-gnome\x2dkeyring\x2dssh-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.ScreensaverProxy-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.Power-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.A11ySettings-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Exec binary '/usr/libexec/deja-dup/deja-dup-monitor' does not exist: No such file or directory
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.DejaDup.Monitor-autostart.service, error parsing Exec= line: No such file or directory
+Apr  2 07:59:06 Dracos systemd[1772]: gnome-systemd-autostart-condition not found: No such file or directory
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.Color-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-xdg\x2duser\x2ddirs-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-gnome\x2dkeyring\x2dpkcs11-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1772]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.Wacom-autostart.service, startup phases are not supported.
+Apr  2 07:59:06 Dracos systemd[1767]: Queued start job for default target Main User Target.
+Apr  2 07:59:06 Dracos systemd[1767]: Started Pending report trigger for Ubuntu Report.
+Apr  2 07:59:06 Dracos systemd[1767]: Reached target Paths.
+Apr  2 07:59:06 Dracos systemd[1767]: Reached target Timers.
+Apr  2 07:59:06 Dracos systemd[1767]: Starting D-Bus User Message Bus Socket.
+Apr  2 07:59:06 Dracos systemd[1767]: Listening on GnuPG network certificate management daemon.
+Apr  2 07:59:06 Dracos systemd[1767]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr  2 07:59:06 Dracos systemd[1767]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr  2 07:59:06 Dracos systemd[1767]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr  2 07:59:06 Dracos systemd[1767]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr  2 07:59:06 Dracos systemd[1767]: Listening on debconf communication socket.
+Apr  2 07:59:06 Dracos systemd[1767]: Listening on Sound System.
+Apr  2 07:59:06 Dracos systemd[1767]: Listening on REST API socket for snapd user session agent.
+Apr  2 07:59:06 Dracos systemd[1767]: Listening on D-Bus User Message Bus Socket.
+Apr  2 07:59:06 Dracos systemd[1767]: Reached target Sockets.
+Apr  2 07:59:06 Dracos systemd[1767]: Reached target Basic System.
+Apr  2 07:59:06 Dracos systemd[1]: Started User Manager for UID 1000.
+Apr  2 07:59:06 Dracos systemd[1767]: Starting Sound Service...
+Apr  2 07:59:06 Dracos systemd[1]: Started Session 3 of user dracos.
+Apr  2 07:59:06 Dracos systemd[1767]: Starting Tracker metadata extractor...
+Apr  2 07:59:06 Dracos systemd[1767]: Starting Tracker file system data miner...
+Apr  2 07:59:06 Dracos tracker-extract[1777]: Set scheduler policy to SCHED_IDLE
+Apr  2 07:59:06 Dracos tracker-miner-f[1778]: Set scheduler policy to SCHED_IDLE
+Apr  2 07:59:06 Dracos tracker-miner-f[1778]: Setting priority nice level to 19
+Apr  2 07:59:06 Dracos tracker-extract[1777]: Setting priority nice level to 19
+Apr  2 07:59:06 Dracos systemd[1767]: Started D-Bus User Message Bus.
+Apr  2 07:59:06 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] AppArmor D-Bus mediation is enabled
+Apr  2 07:59:06 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.2' (uid=1000 pid=1778 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr  2 07:59:06 Dracos systemd[1767]: Starting Virtual filesystem service...
+Apr  2 07:59:06 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Successfully activated service 'org.gtk.vfs.Daemon'
+Apr  2 07:59:06 Dracos systemd[1767]: Started Virtual filesystem service.
+Apr  2 07:59:06 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.2' (uid=1000 pid=1778 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr  2 07:59:06 Dracos systemd[1767]: Starting Virtual filesystem service - disk device monitor...
+Apr  2 07:59:06 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Apr  2 07:59:06 Dracos systemd[1767]: Started Virtual filesystem service - disk device monitor.
+Apr  2 07:59:06 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.2' (uid=1000 pid=1778 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr  2 07:59:06 Dracos systemd[1767]: Starting Virtual filesystem service - digital camera monitor...
+Apr  2 07:59:06 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Apr  2 07:59:06 Dracos systemd[1767]: Started Virtual filesystem service - digital camera monitor.
+Apr  2 07:59:06 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.2' (uid=1000 pid=1778 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr  2 07:59:06 Dracos systemd[1767]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Apr  2 07:59:06 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Apr  2 07:59:06 Dracos systemd[1767]: Started Virtual filesystem service - Apple File Conduit monitor.
+Apr  2 07:59:06 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.2' (uid=1000 pid=1778 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr  2 07:59:06 Dracos systemd[1767]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Apr  2 07:59:06 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Apr  2 07:59:06 Dracos systemd[1767]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Apr  2 07:59:06 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.2' (uid=1000 pid=1778 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr  2 07:59:06 Dracos systemd[1767]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Apr  2 07:59:06 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Activating service name='org.gnome.OnlineAccounts' requested by ':1.9' (uid=1000 pid=1838 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+Apr  2 07:59:07 Dracos goa-daemon[1842]: goa-daemon version 3.37.90 starting
+Apr  2 07:59:07 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Activating service name='org.gnome.Identity' requested by ':1.10' (uid=1000 pid=1842 comm="/usr/libexec/goa-daemon " label="unconfined")
+Apr  2 07:59:07 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Successfully activated service 'org.gnome.OnlineAccounts'
+Apr  2 07:59:07 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Successfully activated service 'org.gnome.Identity'
+Apr  2 07:59:07 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Apr  2 07:59:07 Dracos systemd[1767]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Apr  2 07:59:07 Dracos rtkit-daemon[987]: Supervising 3 threads of 1 processes of 2 users.
+Apr  2 07:59:07 Dracos rtkit-daemon[987]: message repeated 4 times: [ Supervising 3 threads of 1 processes of 2 users.]
+Apr  2 07:59:07 Dracos systemd[1767]: Started Sound Service.
+Apr  2 07:59:07 Dracos bluetoothd[658]: Endpoint registered: sender=:1.85 path=/MediaEndpoint/A2DPSink/sbc
+Apr  2 07:59:07 Dracos bluetoothd[658]: Endpoint registered: sender=:1.85 path=/MediaEndpoint/A2DPSource/sbc
+Apr  2 07:59:07 Dracos kernel: [ 2192.523228] Bluetooth: RFCOMM TTY layer initialized
+Apr  2 07:59:07 Dracos kernel: [ 2192.523240] Bluetooth: RFCOMM socket layer initialized
+Apr  2 07:59:07 Dracos kernel: [ 2192.523252] Bluetooth: RFCOMM ver 1.11
+Apr  2 07:59:07 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1778 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr  2 07:59:07 Dracos systemd[1767]: Starting Tracker metadata database store and lookup manager...
+Apr  2 07:59:07 Dracos dbus-daemon[1783]: [session uid=1000 pid=1783] Successfully activated service 'org.freedesktop.Tracker1'
+Apr  2 07:59:07 Dracos systemd[1767]: Started Tracker metadata database store and lookup manager.
+Apr  2 07:59:07 Dracos systemd[1767]: Started Tracker metadata extractor.
+Apr  2 07:59:07 Dracos systemd[1767]: Started Tracker file system data miner.
+Apr  2 07:59:07 Dracos systemd[1767]: Reached target Main User Target.
+Apr  2 07:59:07 Dracos systemd[1767]: Startup finished in 876ms.
+Apr  2 07:59:17 Dracos systemd[1767]: tracker-extract.service: Succeeded.
+Apr  2 07:59:53 Dracos tracker-store[1873]: OK
+Apr  2 07:59:53 Dracos systemd[1767]: tracker-store.service: Succeeded.
+Apr  2 08:17:02 Dracos CRON[1980]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 08:17:53 Dracos systemd[1]: Starting Daily apt upgrade and clean activities...
+Apr  2 08:17:57 Dracos systemd[1]: apt-daily-upgrade.service: Succeeded.
+Apr  2 08:17:57 Dracos systemd[1]: Finished Daily apt upgrade and clean activities.
+Apr  2 08:30:01 Dracos CRON[2073]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Apr  2 08:32:28 Dracos systemd[1]: Started Run anacron jobs.
+Apr  2 08:32:28 Dracos anacron[2075]: Anacron 2.3 started on 2021-04-02
+Apr  2 08:32:28 Dracos anacron[2075]: Normal exit (0 jobs run)
+Apr  2 08:32:28 Dracos systemd[1]: anacron.service: Succeeded.
+Apr  2 08:46:18 Dracos systemd[1]: Starting Discard unused blocks on filesystems from /etc/fstab...
+Apr  2 08:46:19 Dracos systemd[1]: fstrim.service: Succeeded.
+Apr  2 08:46:19 Dracos systemd[1]: Finished Discard unused blocks on filesystems from /etc/fstab.
+Apr  2 09:17:01 Dracos CRON[2140]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 09:30:01 Dracos CRON[2151]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Apr  2 09:33:53 Dracos systemd[1]: Started Run anacron jobs.
+Apr  2 09:33:53 Dracos anacron[2154]: Anacron 2.3 started on 2021-04-02
+Apr  2 09:33:53 Dracos anacron[2154]: Normal exit (0 jobs run)
+Apr  2 09:33:53 Dracos systemd[1]: anacron.service: Succeeded.
+Apr  2 10:17:01 Dracos CRON[2187]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 10:24:09 Dracos snapd[676]: storehelpers.go:551: cannot refresh: snap has no updates available: "gnome-3-34-1804", "gtk-common-themes", "snap-store"
+Apr  2 10:24:17 Dracos systemd[1]: Reloading.
+Apr  2 10:24:18 Dracos systemd[1]: /lib/systemd/system/dbus.service:12: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:18 Dracos systemd[1]: /lib/systemd/system/plymouth-start.service:17: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:18 Dracos systemd[1]: /lib/systemd/system/docker.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/docker.sock → /run/docker.sock; please update the unit file accordingly.
+Apr  2 10:24:18 Dracos systemd[1]: Reloading.
+Apr  2 10:24:19 Dracos systemd[1]: /lib/systemd/system/dbus.service:12: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:19 Dracos systemd[1]: /lib/systemd/system/plymouth-start.service:17: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:19 Dracos systemd[1]: /lib/systemd/system/docker.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/docker.sock → /run/docker.sock; please update the unit file accordingly.
+Apr  2 10:24:19 Dracos systemd[1]: Mounting Mount unit for snapd, revision 11402...
+Apr  2 10:24:20 Dracos systemd[1]: Mounted Mount unit for snapd, revision 11402.
+Apr  2 10:24:20 Dracos systemd[1]: Reloading.
+Apr  2 10:24:21 Dracos systemd[1]: /lib/systemd/system/dbus.service:12: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:21 Dracos systemd[1]: /lib/systemd/system/plymouth-start.service:17: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:21 Dracos systemd[1]: /lib/systemd/system/docker.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/docker.sock → /run/docker.sock; please update the unit file accordingly.
+Apr  2 10:24:21 Dracos systemd[1]: Starting Message of the Day...
+Apr  2 10:24:21 Dracos systemd[1]: motd-news.service: Succeeded.
+Apr  2 10:24:21 Dracos systemd[1]: Finished Message of the Day.
+Apr  2 10:24:21 Dracos systemd[1]: Reloading.
+Apr  2 10:24:22 Dracos systemd[1]: /lib/systemd/system/dbus.service:12: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:22 Dracos systemd[1]: /lib/systemd/system/plymouth-start.service:17: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:22 Dracos systemd[1]: /lib/systemd/system/docker.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/docker.sock → /run/docker.sock; please update the unit file accordingly.
+Apr  2 10:24:22 Dracos systemd[1]: Mounting Mount unit for core18, revision 1997...
+Apr  2 10:24:22 Dracos systemd[1]: Starting Daily apt download activities...
+Apr  2 10:24:22 Dracos systemd[1]: Mounted Mount unit for core18, revision 1997.
+Apr  2 10:24:23 Dracos systemd-resolved[639]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Apr  2 10:24:23 Dracos kernel: [10908.403896] audit: type=1400 audit(1617373463.426:57): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/11402/usr/lib/snapd/snap-confine" pid=2505 comm="apparmor_parser"
+Apr  2 10:24:23 Dracos kernel: [10908.404624] audit: type=1400 audit(1617373463.426:58): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/11402/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2505 comm="apparmor_parser"
+Apr  2 10:24:24 Dracos kernel: [10909.273765] audit: type=1400 audit(1617373464.294:59): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.snap-store" pid=2552 comm="apparmor_parser"
+Apr  2 10:24:24 Dracos kernel: [10909.290803] audit: type=1400 audit(1617373464.314:60): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.hook.configure" pid=2693 comm="apparmor_parser"
+Apr  2 10:24:24 Dracos kernel: [10909.296337] audit: type=1400 audit(1617373464.318:61): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.ubuntu-software" pid=2695 comm="apparmor_parser"
+Apr  2 10:24:24 Dracos kernel: [10909.297075] audit: type=1400 audit(1617373464.318:62): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.snap-store" pid=2694 comm="apparmor_parser"
+Apr  2 10:24:24 Dracos kernel: [10909.300026] audit: type=1400 audit(1617373464.322:63): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.ubuntu-software-local-file" pid=2696 comm="apparmor_parser"
+Apr  2 10:24:23 Dracos systemd-resolved[639]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Apr  2 10:24:24 Dracos dbus-daemon[659]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.97' (uid=0 pid=2862 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Apr  2 10:24:24 Dracos systemd[1]: Starting PackageKit Daemon...
+Apr  2 10:24:24 Dracos PackageKit: daemon start
+Apr  2 10:24:25 Dracos dbus-daemon[659]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Apr  2 10:24:25 Dracos systemd[1]: Started PackageKit Daemon.
+Apr  2 10:24:25 Dracos snapd[676]: daemon.go:589: gracefully waiting for running hooks
+Apr  2 10:24:25 Dracos snapd[676]: daemon.go:591: done waiting for running hooks
+Apr  2 10:24:26 Dracos systemd[1]: snapd.service: Succeeded.
+Apr  2 10:24:26 Dracos systemd[1]: snapd.service: Scheduled restart job, restart counter is at 1.
+Apr  2 10:24:26 Dracos systemd[1]: Stopped Snap Daemon.
+Apr  2 10:24:26 Dracos systemd[1]: Starting Snap Daemon...
+Apr  2 10:24:26 Dracos snapd[2898]: AppArmor status: apparmor is enabled and all features are available
+Apr  2 10:24:27 Dracos snapd[2898]: AppArmor status: apparmor is enabled and all features are available
+Apr  2 10:24:27 Dracos snapd[2898]: patch.go:64: Patching system state level 6 to sublevel 1...
+Apr  2 10:24:27 Dracos snapd[2898]: patch.go:64: Patching system state level 6 to sublevel 2...
+Apr  2 10:24:27 Dracos snapd[2898]: patch.go:64: Patching system state level 6 to sublevel 3...
+Apr  2 10:24:27 Dracos snapd[2898]: daemon.go:347: started snapd/2.49.1 (series 16; classic) ubuntu/20.10 (amd64) linux/5.8.0-44-generic.
+Apr  2 10:24:27 Dracos snapd[2898]: daemon.go:440: adjusting startup timeout by 55s (pessimistic estimate of 30s plus 5s per snap)
+Apr  2 10:24:27 Dracos systemd[1767]: tmp-sanity\x2dmountpoint\x2d102467486.mount: Succeeded.
+Apr  2 10:24:27 Dracos systemd[950]: tmp-sanity\x2dmountpoint\x2d102467486.mount: Succeeded.
+Apr  2 10:24:27 Dracos systemd[1]: tmp-sanity\x2dmountpoint\x2d102467486.mount: Succeeded.
+Apr  2 10:24:28 Dracos kernel: [10913.395041] audit: type=1400 audit(1617373468.418:64): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/11402/usr/lib/snapd/snap-confine" pid=3001 comm="apparmor_parser"
+Apr  2 10:24:28 Dracos kernel: [10913.414379] audit: type=1400 audit(1617373468.438:65): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/11402/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=3001 comm="apparmor_parser"
+Apr  2 10:24:29 Dracos kernel: [10914.090327] audit: type=1400 audit(1617373469.114:66): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.snap-store" pid=3004 comm="apparmor_parser"
+Apr  2 10:24:29 Dracos kernel: [10914.101011] audit: type=1400 audit(1617373469.122:67): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.ubuntu-software" pid=3005 comm="apparmor_parser"
+Apr  2 10:24:29 Dracos kernel: [10914.357086] audit: type=1400 audit(1617373469.378:68): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.ubuntu-software-local-file" pid=3006 comm="apparmor_parser"
+Apr  2 10:24:29 Dracos kernel: [10914.357200] audit: type=1400 audit(1617373469.378:69): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.snap-store" pid=3003 comm="apparmor_parser"
+Apr  2 10:24:29 Dracos kernel: [10914.372435] audit: type=1400 audit(1617373469.394:70): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.hook.configure" pid=3012 comm="apparmor_parser"
+Apr  2 10:24:29 Dracos systemd[1]: Started Snap Daemon.
+Apr  2 10:24:31 Dracos systemd[1767]: snap-snapd-11036.mount: Succeeded.
+Apr  2 10:24:31 Dracos systemd[950]: snap-snapd-11036.mount: Succeeded.
+Apr  2 10:24:31 Dracos systemd[1]: snap-snapd-11036.mount: Succeeded.
+Apr  2 10:24:32 Dracos systemd[1]: Reloading.
+Apr  2 10:24:33 Dracos systemd[1]: /lib/systemd/system/dbus.service:12: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:33 Dracos systemd[1]: /lib/systemd/system/plymouth-start.service:17: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:33 Dracos systemd[1]: /lib/systemd/system/docker.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/docker.sock → /run/docker.sock; please update the unit file accordingly.
+Apr  2 10:24:33 Dracos systemd[1]: Reloading.
+Apr  2 10:24:34 Dracos systemd[1]: /lib/systemd/system/dbus.service:12: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:34 Dracos systemd[1]: /lib/systemd/system/plymouth-start.service:17: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:34 Dracos systemd[1]: /lib/systemd/system/docker.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/docker.sock → /run/docker.sock; please update the unit file accordingly.
+Apr  2 10:24:35 Dracos systemd[1767]: snap-core18-1885.mount: Succeeded.
+Apr  2 10:24:35 Dracos systemd[950]: snap-core18-1885.mount: Succeeded.
+Apr  2 10:24:35 Dracos systemd[1]: snap-core18-1885.mount: Succeeded.
+Apr  2 10:24:35 Dracos systemd[1]: Reloading.
+Apr  2 10:24:36 Dracos systemd[1]: /lib/systemd/system/dbus.service:12: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:36 Dracos systemd[1]: /lib/systemd/system/plymouth-start.service:17: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:36 Dracos systemd[1]: /lib/systemd/system/docker.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/docker.sock → /run/docker.sock; please update the unit file accordingly.
+Apr  2 10:24:36 Dracos systemd[1]: Reloading.
+Apr  2 10:24:37 Dracos systemd[1]: /lib/systemd/system/dbus.service:12: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:38 Dracos systemd[1]: /lib/systemd/system/plymouth-start.service:17: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Apr  2 10:24:38 Dracos systemd[1]: /lib/systemd/system/docker.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/docker.sock → /run/docker.sock; please update the unit file accordingly.
+Apr  2 10:24:39 Dracos snapd[2898]: storehelpers.go:551: cannot refresh: snap has no updates available: "core18", "snapd"
+Apr  2 10:25:27 Dracos systemd[1]: apt-daily.service: Succeeded.
+Apr  2 10:25:27 Dracos systemd[1]: Finished Daily apt download activities.
+Apr  2 10:29:29 Dracos PackageKit: daemon quit
+Apr  2 10:29:29 Dracos systemd[1]: packagekit.service: Succeeded.
+Apr  2 10:30:01 Dracos CRON[3349]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Apr  2 10:31:53 Dracos systemd[1]: Started Run anacron jobs.
+Apr  2 10:31:53 Dracos anacron[3351]: Anacron 2.3 started on 2021-04-02
+Apr  2 10:31:53 Dracos anacron[3351]: Normal exit (0 jobs run)
+Apr  2 10:31:53 Dracos systemd[1]: anacron.service: Succeeded.
+Apr  2 11:17:02 Dracos CRON[3381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  2 11:30:01 Dracos CRON[3394]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Apr  2 11:34:53 Dracos systemd[1]: Started Run anacron jobs.
+Apr  2 11:34:53 Dracos anacron[3397]: Anacron 2.3 started on 2021-04-02
+Apr  2 11:34:53 Dracos anacron[3397]: Normal exit (0 jobs run)
+Apr  2 11:34:53 Dracos systemd[1]: anacron.service: Succeeded.
