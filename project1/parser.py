@@ -1,5 +1,21 @@
 import os
-os.parh.join('usr', 'bin', 'spam')
-imyFile = ['log.txt', 'kernlog.txt']
-ifor filename in myFiles:
-	print(os.path.join('/home/dracos/projects/dailycode/project1', filename))
+os.path.join('usr', 'bin', 'spam')
+myFiles = ['log.txt', 'kernlog.txt','dmesg.log']
+#create OS path
+for filename in myFiles:
+	print(os.path.join('/home/dracos/dailycode/project1', filename))
+#print(os.path.join('/home/dracos/dailycode/project1'))
+
+#Open and Reading Contents
+#print os.getcwd()
+#read('/home/dracos/dailycode/project1')
+log = open('/home/dracos/dailycode/project1/log.txt')
+log.readlines()
+kernlog = open('/home/dracos/dailycode/project1/kern.log')
+dmesg = open('/home/dracos/dailycode/project1/dmesg.log')
+#Rlog = log.read()
+#Rkern = kernlog.log.read()
+#Rdmesg = dmesg.read()
+#print Rlog
+#read('/home/dracos/dailycode/project1/kern.log')
+#read('/home/dracos/dailycode/project1/dmesg.log')
