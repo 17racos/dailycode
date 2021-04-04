@@ -13,9 +13,9 @@ log = open('/home/dracos/dailycode/project1/log.txt')
 log.readlines()
 kernlog = open('/home/dracos/dailycode/project1/kern.log')
 dmesg = open('/home/dracos/dailycode/project1/dmesg.log')
-#Rlog = log.read()
-#Rkern = kernlog.log.read()
-#Rdmesg = dmesg.read()
-#print Rlog
-#read('/home/dracos/dailycode/project1/kern.log')
-#read('/home/dracos/dailycode/project1/dmesg.log')
+Rlog = log.read()
+Rkern = kernlog.read()
+Rdmesg = dmesg.read()
+print(Rlog)
+#print '$Rkern'
+#print '$Rdmedg'
